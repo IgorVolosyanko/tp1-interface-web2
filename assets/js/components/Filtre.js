@@ -31,7 +31,7 @@ class Filtre {
     if (!declencheur.closest("a")) return;
     declencheur.classList.add("sous-ligne");
     if (this.#declencheurPrecedent !== declencheur) {
-      if (!!this.#declencheurPrecedent) {
+      if (this.#declencheurPrecedent) {
         this.#declencheurPrecedent.classList.remove("sous-ligne");
       }
       this.#declencheurPrecedent = declencheur;

@@ -24,6 +24,12 @@ header > a {
   gap: var(--espace-xxxl);
 }
 
+@media (max-width: 750px) {
+  .conteneur {
+    flex-wrap: wrap;
+  }
+}
+
 .grille {
   width: 100%;
   display: grid;
