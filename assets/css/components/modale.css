@@ -1,0 +1,65 @@
+.modale-verrou {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.boite-modale-contenu {
+  display: flex;
+  flex-direction: row;
+  gap: var(--espace-xxl);
+  background-color: var(--couleur-primaire);
+  max-width: 830px;
+  height: 500px;
+  margin-top: var(--espace-md);
+}
+
+@media (max-width: 750px) {
+  .boite-modale-contenu {
+    flex-direction: column;
+    max-width: 200px;
+    height: 750px;
+    gap: var(--espace-sm);
+  }
+
+  .boite-modale-contenu > div {
+    padding: var(--espace-ssm);
+  }
+}
+
+.boite-modale-contenu > div {
+  align-self: center;
+  max-width: 250px;
+  height: auto;
+}
+
+.boite-modale-contenu span {
+  font-size: var(--police-taille-sm);
+}
+
+.boite-modale-contenu p {
+  font-size: var(--police-taille-s);
+  margin-bottom: var(--espace-sm);
+}
+
+.boite-modale-contenu .description {
+  font-size: var(--police-taille-sm);
+}
+
+.boite-modale {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--couleur-modale);
+  position: fixed;
+  inset: 0;
+  justify-content: center;
+  gap: var(--espace-lg);
+}
+
+.boite-modale a {
+  margin-top: var(--espace-lg);
+}
+
+.invisible {
+  display: none;
+}

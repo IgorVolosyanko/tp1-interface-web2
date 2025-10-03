@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./components/carte.css");
+@import url("./components/filtre.css");
+@import url("./components/modale.css");
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: var(--espace-xl);
+  margin-right: var(--espace-md);
+}
+
+header > a {
+  margin-left: auto;
+  align-self: center;
+}
+
+.conteneur {
+  display: flex;
+  flex-direction: row;
+  gap: var(--espace-xxxl);
+}
+
+.grille {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22ch, 1fr));
+  gap: var(--espace-lg);
+}
+
+.btn:hover {
+  border: 1px solid var(--couleur-hover);
+}

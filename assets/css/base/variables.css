@@ -1,0 +1,19 @@
+:root {
+  --police-taille-s: 0.7rem;
+  --police-taille-sm: 0.8rem;
+  --police-taille-md: 1rem;
+
+  --espace-ssm: 5px;
+  --espace-sm: 10px;
+  --espace-md: 20px;
+  --espace-lg: 30px;
+  --espace-xl: 40px;
+  --espace-xxl: 50px;
+  --espace-xxxl: 60px;
+
+  --couleur-contour: black;
+  --couleur-texte: #000;
+  --couleur-primaire: #fff;
+  --couleur-modale: rgba(0, 0, 0, 0.8);
+  --couleur-hover: salmon;
+}

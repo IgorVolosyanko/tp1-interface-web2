@@ -1,0 +1,27 @@
+.carte img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: var(--espace-md);
+}
+
+.carte h3 {
+  display: inline;
+  flex-shrink: 0;
+}
+
+.carte p {
+  margin-bottom: var(--espace-ssm);
+  font-size: var(--police-taille-md);
+  max-width: 200px;
+}
+
+.carte button {
+  padding: var(--espace-ssm);
+  border: 1px solid var(--couleur-contour);
+  background-color: var(--couleur-primaire);
+  margin-left: 17ch;
+}
+
+.carte {
+  margin-bottom: var(--espace-sm);
+}

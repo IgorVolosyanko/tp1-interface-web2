@@ -1,0 +1,15 @@
+.filtre {
+  min-width: 21ch;
+}
+
+.filtre a {
+  display: block;
+  margin-bottom: var(--espace-sm);
+  text-decoration: none;
+  color: var(--couleur-texte);
+}
+
+.filtre .sous-ligne {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
