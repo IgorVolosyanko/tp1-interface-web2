@@ -14,6 +14,12 @@
   margin-top: var(--espace-md);
 }
 
+.boite-modale-contenu p {
+  font-size: var(--police-taille-s);
+  margin-bottom: var(--espace-sm);
+  padding-right: var(--espace-md);
+}
+
 @media (max-width: 750px) {
   .boite-modale-contenu {
     flex-direction: column;
@@ -25,6 +31,10 @@
   .boite-modale-contenu > div {
     padding: var(--espace-ssm);
   }
+
+  .boite-modale-contenu p {
+    padding-right: 0;
+  }
 }
 
 .boite-modale-contenu > div {
@@ -35,12 +45,6 @@
 
 .boite-modale-contenu span {
   font-size: var(--police-taille-sm);
-}
-
-.boite-modale-contenu p {
-  font-size: var(--police-taille-s);
-  margin-bottom: var(--espace-sm);
-  padding-right: 20px;
 }
 
 .boite-modale-contenu .description {
