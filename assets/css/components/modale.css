@@ -40,6 +40,7 @@
 .boite-modale-contenu p {
   font-size: var(--police-taille-s);
   margin-bottom: var(--espace-sm);
+  padding-right: 20px;
 }
 
 .boite-modale-contenu .description {
